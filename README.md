@@ -9,7 +9,7 @@ Here are the **main features** that the launcher helps you manage easily:
 - Loading **custom additional files**, like maps, scripts, music...
 - Playing **online** games with other players by **selecting joining/hosting information easily**
 
-See the full guide on how it works.
+[See the full user guide](https://github.com/G-Polyverse-Jack/ZDoom-Launcher/blob/main/FULL_USER_GUIDE.md).
 
 ## Compatibility
 #### Only **Windows**
