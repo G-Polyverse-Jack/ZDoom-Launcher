@@ -34,7 +34,7 @@ Example:
 To select an option you just need to type the value between the square brackets related to the wanted option and then press enter. The option values are not case sensitive.
 You will see your input before "entering" it right after the menu message or in the lowest line.
 
-Comfirmation dialog messages work the same way.
+Confirmation dialog messages work the same way.
 Example: 
 
         	Restore default profile:
@@ -46,9 +46,9 @@ It means that you can confirm by entering "Y" and denying by entering "N"
 You will also come across menus in which you have to enter an input that is requested.
 Example: 
 
-	Type the name of the profile file form the list without extension _
+	Type the name of the profile file from the list without extension _
 
-This means that you need to type the value you are requested and then enter it. This time the input is case sensitive and you shoud type exactly, taking care of spaces and symbols, your desired input.
+This means that you need to type the value you are requested and then enter it. This time the input is case sensitive and you should type exactly, taking care of spaces and symbols, your desired input.
 If you would like to go back, you will usually see the current value selected or a list of values, which you can copy and paste it by selecting it with the mouse. Sometimes entering blank values can trigger some errors that will reset the input to the last selected.
 
 
@@ -97,10 +97,10 @@ It displays both the username and configuration file id of the current profile s
 #### 1) CHANGE PROFILE
 Shows a list of configuration files available in the (G)ZDoom-folder\Profiles\ folder.
 Asks you to enter the filename without (.ini) extension to change to the related profile.
-To cancel the operation you can enter a blank or non-existing input after which yoi will be showed an error and the profile will not be changed.
+To cancel the operation you can enter a blank or non-existing input after which you will be showed an error and the profile will not be changed.
 
 #### 2) CREATE OWN PROFILE
-This feature makes you create a copy form the default profile (whith or without progress) to a custom one with custom file name and username. It is designed mostly to make a player profile for separated games/mods.
+This feature makes you create a copy from the default profile (whith or without progress) to a custom one with custom file name and username. It is designed mostly to make a player profile for separated games/mods.
 You are not allowed to use spaces for the file name as it would trigger an error screen and cancel the operation.
 If you want to duplicate the current profile to a custom one you need to use the "Import/export profile" feature.
 
@@ -111,22 +111,22 @@ Changes to Guest (default) profile automatically.
 Lets you change the filename and username. Make sure to type legal filenames.
 
 #### 5) RESTORE GUEST PROFILE PROGRESS
-It overwrites the default profile's configuration file that potentially had progress saved with a clean defult one
+It overwrites the default profile's configuration file that potentially had progress saved with a clean default one
 
 #### 6) IMPORT/EXPORT EXTERNAL PROFILE
-This feature lets you create a new profile from a configuration file located on any path or to export your current profile file to a custom path to bring it wherever you want or to shere it with other people. Make sure to type the path between quotes to avoid issues related with folders or files that contain spaces. If you import a file you can give it a custom filename and create a new username. If you Export it, you will export the current one to a path. You can change the filename by typing it after the folder path by adding the *ini extension. However no username will be saved after the exportation and if you enter a non-existing path, no files will be saved.
+This feature lets you create a new profile from a configuration file located on any path or to export your current profile file to a custom path to bring it wherever you want or to share it with other people. Make sure to type the path between quotes to avoid issues related with folders or files that contain spaces. If you import a file you can give it a custom filename and create a new username. If you Export it, you will export the current one to a path. You can change the filename by typing it after the folder path by adding the *ini extension. However no username will be saved after the exportation and if you enter a non-existing path, no files will be saved.
 If you want to duplicate the current profile to a custom one you need to export the current profile and then import it again.
 
 #### 7) SAVE AND GO BACK TO MAIN MENU
 Goes back to the main menu.
 
 #### 8) DELETE CURRENT PROFILE
-Deletes the currently selected profile (both configuratin file and username) and changes to guest. You cannot delet the Guest/default profile.
+Deletes the currently selected profile (both configuration file and username) and changes to guest. You cannot delete the Guest/default profile.
 
 
 ## **4. MAIN MENU**
 
-It's the first menu that shows when you start the launcher and is lets you select the playing mode or open the profile manager.
+It's the first menu that shows when you start the launcher and it lets you select the playing mode or open the profile manager.
 
 ### a) SINGLE PLAYER LAUNCH
 Lets you start the game/mod offline to play alone and it loads the configuration file of the currently selected profile.
@@ -138,7 +138,7 @@ Opens a menu dedicated to multiplayer online games (see (G)ZDoom availability fo
 Wonder what is the current ZDoom Launcher version you're using? Just type and enter "V".
 
 ### d) OTHER OPTIONS
-You can open the profile manager tool if you selectthe "Change profile" option.
+You can open the profile manager tool if you select the "Change profile" option.
 "Help" option displays you some basic instructions on how to use ZDoom Launcher and you can quit it by entering "5".
 
 
@@ -153,7 +153,7 @@ It is designed for loading additional files (usually WADs) along with the game/m
 Here you can choose whether to join or host a multiplayer online game.
 
 ### I. JOIN SUBMENU
-It lets you set the the IPv4 address and the port of the host.
+It lets you set the IPv4 address and the port of the host.
 After choosing to connect to the game you will be shown the adding files submenu to load potentially necessary files that the host requires you to load.
 
 ### II. HOST SUBMENU
@@ -212,13 +212,13 @@ Switches whether to turn on or off the timer that changes automatically to the f
 Lets you input the amount of minutes for the timer.
 
 #### 6) RESPAWNING?
-Switches whether to let mosnters respawn or not after being killed
+Switches whether to let monsters respawn or not after being killed
 
 #### a) ADD FILES
 Lets you input the additional files to load, after displaying the currently selected files.
 
 #### 7) LOAD FILES?
-Switches whether to loat the selected files or not.
+Switches whether to load the selected files or not.
 
 #### c) ADDITIONAL CUSTOM COMMAND
 Lets you input additional command line parameters. They will be shown and remembered after the input.
@@ -230,7 +230,7 @@ Launches the game with the chosen parameters (and the current profile's configur
 ## **7. APPENDIX**
 
 ### a) COMPATIBILITY
-ZDoom Launcher is the same for ZDoom and GZDoom except thet for GZDoom there will be an additional file that gives the instruction to run the correct executable file. Both ZDoom and GZDoom can be in the same foldder and ZDoom Launcher can be loaded normally.
+ZDoom Launcher is the same for ZDoom and GZDoom except that for GZDoom there will be an additional file that gives the instruction to run the correct executable file. Both ZDoom and GZDoom can be in the same foldder and ZDoom Launcher can be loaded normally.
 
 ### b) CUSTOM COMMANDS
 If you're a developer and want to use additional command line parameters for a single player game you can set them in the command.bat batch file located in the "launcher" folder.
