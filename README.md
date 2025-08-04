@@ -10,3 +10,6 @@ Here are the **main features** that the launcher helps you manage easily:
 - Playing **online** games with other players by **selecting joining/hosting information easily**
 
 See the full guide on how it works.
+
+## Compatibility
+#### Only **Windows**
