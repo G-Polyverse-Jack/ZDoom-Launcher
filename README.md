@@ -1,4 +1,4 @@
-# ZDoom-Launcher
+# ZDoom-Launcher for separated games
 A portable and intuitive Launcher designed for launching ZDoom games easily!
 
 ### NO MORE NEED OF CHANGING THE CONFIGURATION FILE NAME FROM COMPUTER TO COMPUTER OR LOOKING FOR COMMAND LINE PARAMETERS TO EXECUTE MANUALLY! 
@@ -10,6 +10,9 @@ Here are the **main features** that the launcher helps you manage easily:
 - Playing **online** games with other players by **selecting joining/hosting information easily**
 
 [See the full user guide](https://github.com/G-Polyverse-Jack/ZDoom-Launcher/blob/main/FULL_USER_GUIDE.md).
+
+## Variant information
+Separate games use [ZDoom Launcher](https://github.com/G-Polyverse-Jack/ZDoom-Launcher/releases/tag/ZDoom_Launcher) with a separate folder to store their data. It just adds this feature.
 
 ## Compatibility
 #### Only **Windows**
