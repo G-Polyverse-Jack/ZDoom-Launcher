@@ -1,4 +1,4 @@
-# ZDoom-Launcher for separated games
+# ZDoom-Launcher for separate games
 A portable and intuitive Launcher designed for launching ZDoom games easily!
 
 ### NO MORE NEED OF CHANGING THE CONFIGURATION FILE NAME FROM COMPUTER TO COMPUTER OR LOOKING FOR COMMAND LINE PARAMETERS TO EXECUTE MANUALLY! 
