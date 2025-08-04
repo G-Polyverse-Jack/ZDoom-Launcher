@@ -231,6 +231,7 @@ Launches the game with the chosen parameters (and the current profile's configur
 
 ### a) COMPATIBILITY
 ZDoom Launcher is the same for ZDoom and GZDoom except that for GZDoom there will be an additional file that gives the instruction to run the correct executable file. Both ZDoom and GZDoom can be in the same foldder and ZDoom Launcher can be loaded normally.
+The host parameters (except the port) and the profile settings are the only data that is stored separately for separate games/mods
 
 ### b) CUSTOM COMMANDS
 If you're a developer and want to use additional command line parameters for a single player game you can set them in the command.bat batch file located in the "launcher" folder.
